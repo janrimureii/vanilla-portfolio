@@ -1,0 +1,330 @@
+html, body {
+    background-color: #001731;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.section-1-container {
+    display: flex;
+    flex-direction: row;
+    gap: -100px;
+}
+.word-container{
+    position: relative;
+    top: 200px;
+    color: #D3D3D3;
+    padding-left: 100px;
+}
+.greeting-1{
+    font-size: 35px;
+    font-weight: 150;
+    margin: 0;
+}
+.name-label{
+    font-size: 100px;
+    font-weight: 350;
+    margin: 0;
+}
+.description-1{ 
+    font-size: 20px;
+    font-weight: 50;
+    margin: 0;
+}
+.top-contact-container{
+    margin-top: 70px;
+    display: flex;
+    gap: 30px;
+}
+.profile-picture-container img{
+    width: auto;
+    height: 900px;
+    position: relative;
+}
+.contact:hover{
+    transform: scale(1.1);
+}
+
+
+
+.section-2-container{
+    background-color: #020E1B;
+    padding: 30px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.section-2-container h3{
+    color: #FF6500;
+    font-size: 35px;
+}
+.section-2-container p{
+    color: #D3D3D3;
+    font-size: 25px;
+    margin-bottom: 70px;
+}
+
+
+
+.section-3-container {
+  margin-top: 100px;
+  overflow: hidden;
+  text-align: center;
+}
+.section-3-container h3 {
+  color: #ff6500;
+  font-size: 35px;
+  text-align: center;
+}
+.section-3-container p {
+  color: #d3d3d3;
+}
+.skill-icon-container {
+  background-color: #020e1b;
+  border-radius: 40px;
+  margin: 2.5rem;
+  overflow: hidden;
+}
+.skill-inner-container {
+  display: flex;
+  gap: 2rem;
+  padding: 20px;
+  width: max-content;
+  animation: scroll 15s linear infinite;
+}
+.icon {
+  min-width: 150px;
+  background: #10385e;
+  padding: 20px;
+  border-radius: 20px;
+  color: white;
+  flex-shrink: 0;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.icon:hover {
+  transform: scale(1.1);
+}
+
+
+
+.section-4-container{
+    margin-top: 70px;
+    overflow: hidden;
+    text-align: center;
+}
+.section-4-container h3{
+    color: #ff6500;
+    font-size: 35px;
+    text-align: center;
+}
+.project-main-container{
+    background-color: #020e1b;
+    border-radius: 40px;
+    margin: 2.5rem;
+    overflow: hidden;
+}
+.project img{
+    width: 600px;
+    height: 400px;
+}
+.project {
+    min-width: 150px;
+    background: #10385e;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    flex-shrink: 0;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+.project-inner-container{
+    display: flex;
+    gap: 2rem;
+    padding: 20px;
+    width: max-content;
+    animation: scroll 35s linear infinite;
+}
+.project:hover {
+  transform: scale(1.05);
+}
+
+
+footer{
+    background-color: #020E1B;
+    height: 200px;
+    width: 100%;
+    margin: 0;         
+    padding: 0;
+}
+.footer-letters p {
+    color:#FF6500;
+}
+.icon-container-footer{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.footer-stuffs-container{
+    position: relative;
+    margin: 50px;
+    top: 60px;
+}
+.icon-footer:hover {
+  transform: scale(1.1);
+}
+
+@keyframes appear {
+    from{
+        opacity: 0;
+        scale: 0.5
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+@keyframes scroll {
+  0% {transform: translateX(0);}
+  100% {transform: translateX(-50%);}
+}
+
+@media (max-width: 480px) {
+    .section-1-container {
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+        text-align: center;
+    }
+    .word-container{
+        position: relative;
+        top: 100px;
+        color: #D3D3D3;
+    }
+    .top-word{
+        position: relative;
+        left: -50px;
+    }
+    .greeting-1{
+        font-size: 20px;
+        font-weight: 150;
+        margin: 0;
+    }
+    .name-label{
+        font-size: 50px;
+        font-weight: 350;
+        margin: 0;
+    }
+    .description-1{ 
+        font-size: 13px;
+        font-weight: 50;
+        margin: 0;
+    }
+    .top-contact-container{
+        margin-top: 70px;
+        display: flex;
+        gap: 30px;
+    }
+    .profile-picture-container img{
+        width: auto;
+        height: 500px;
+        position: relative;
+        left: -10px;
+    }
+
+
+    .section-2-container{
+        background-color: #020E1B;
+        padding: 30px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .section-2-container h3{
+        color: #FF6500;
+        font-size: 25px;
+    }
+    .section-2-container p{
+        color: #D3D3D3;
+        font-size: 15px;
+        margin-bottom: 70px;
+    }
+
+
+
+    .section-3-container {
+        margin-top: 50px;
+        overflow: hidden;
+        text-align: center;
+    }
+    .section-3-container h3 {
+        color: #ff6500;
+        font-size: 25px;
+        text-align: center;
+    }
+    .section-3-container p {
+        color: #d3d3d3;
+    }
+    .skill-icon-container {
+        background-color: #020e1b;
+        border-radius: 40px;
+        margin: 0.5rem;
+        overflow: hidden;
+    }
+    .skill-inner-container {
+        display: flex;
+        gap: 2rem;
+        padding: 20px;
+        width: max-content;
+        animation: scroll 15s linear infinite;
+    }
+    .icon {
+        max-width: 20px;
+        background: #10385e;
+        padding: 20px;
+        border-radius: 20px;
+        color: white;
+        flex-shrink: 0;
+        text-align: center;
+        transition: transform 0.3s ease;
+    }
+
+
+    .section-4-container{
+        margin-top: 70px;
+        overflow: hidden;
+        text-align: center;
+    }
+    .section-4-container h3{
+        color: #ff6500;
+        font-size: 25px;
+        text-align: center;
+    }
+    .project-main-container{
+        background-color: #020e1b;
+        border-radius: 40px;
+        margin: 0.5rem;
+        overflow: hidden;
+    }
+    .project img{
+        width: 300px;
+        height: 200px;
+    }
+    .project {
+        min-width: 150px;
+        background: #10385e;
+        padding: 20px;
+        border-radius: 20px;
+        color: white;
+        flex-shrink: 0;
+        text-align: center;
+        transition: transform 0.3s ease;
+    }
+    .project-inner-container{
+        display: flex;
+        gap: 2rem;
+        padding: 20px;
+        width: max-content;
+        animation: scroll 35s linear infinite;
+    }
+}
