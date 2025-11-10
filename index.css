@@ -109,7 +109,7 @@ html, body {
 
 
 .section-4-container{
-    margin-top: 70px;
+    margin-top: 150px;
     overflow: hidden;
     text-align: center;
 }
@@ -147,6 +147,42 @@ html, body {
 }
 .project:hover {
   transform: scale(1.05);
+}
+
+
+.section-certifications{
+    position: relative;
+    top: 50px;
+}
+.section-certifications h2 {
+    color:#FF6500;
+    text-align: center;
+    font-size: 35px;
+}
+.inner-container{
+    background-color: #020e1b;
+    margin: 30px;
+    border-radius: 40px;
+    padding: 20px;
+}
+.cert {
+    border-left: #FF6500 5px solid;
+    margin-bottom: 50px;
+    margin-left: 40%;
+}
+.cert h3{
+    color: #D3D3D3;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: -10px;
+    padding-left: 30px;
+}
+.cert p{
+    color: #A29E9E;
+    font-size: 17px;
+    font-weight: 150;
+    margin-bottom: -10px;
+    padding-left: 30px;
 }
 
 
@@ -327,4 +363,41 @@ footer{
         width: max-content;
         animation: scroll 35s linear infinite;
     }
+
+
+    .section-certifications{
+        position: relative;
+        top: 40px;
+    }
+    .section-certifications h2 {
+        color:#FF6500;
+        text-align: center;
+        font-size: 25px;
+    }
+    .inner-container{
+        background-color: #020e1b;
+        margin: 30px;
+        border-radius: 40px;
+        padding: 20px;
+    }
+    .cert {
+        border-left: #FF6500 5px solid;
+        margin-bottom: 50px;
+        margin-left: 10%;
+    }
+    .cert h3{
+        color: #D3D3D3;
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: -10px;
+        padding-left: 30px;
+    }
+    .cert p{
+        color: #A29E9E;
+        font-size: 12px;
+        font-weight: 150;
+        margin-bottom: -10px;
+        padding-left: 30px;
+    }
+
 }
