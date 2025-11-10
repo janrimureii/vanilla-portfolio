@@ -226,6 +226,39 @@ footer{
   100% {transform: translateX(-50%);}
 }
 
+/* Fade + slide in animation */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Default hidden look (smaller + transparent) */
+.section-1-container,
+.section-2-container,
+.section-3-container,
+.section-4-container,
+.section-certifications {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+/* When visible (normal size + visible) */
+.section-1-container.show,
+.section-2-container.show,
+.section-3-container.show,
+.section-4-container.show,
+.section-certifications.show {
+  opacity: 1;
+  transform: scale(1);
+}
+
 @media (max-width: 480px) {
     .section-1-container {
         display: flex;
