@@ -246,7 +246,7 @@ footer{
 .section-certifications {
   opacity: 0;
   transform: scale(0.9);
-  transition: opacity 0.8s ease, transform 0.8s ease;
+  transition: opacity 0.2s ease, transform 0.8s ease;
 }
 
 /* When visible (normal size + visible) */
